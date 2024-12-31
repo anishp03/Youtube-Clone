@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+    <title>Youtube.com Clone</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="CSS styles/General.css">
+    <link rel="stylesheet" href="CSS styles/Header.css">
+    <link rel="stylesheet" href="CSS styles/Video.css">
+    <link rel="stylesheet" href="CSS styles/Sidebar.css">
+  </head>
+
+  <body>
+    
+    <header class="header">
+      <div class="left-section">
+        <img class="hamburger-menu" src="Icons/hamburger-menu.svg">
+        <img class="youtube-logo" src="Icons/youtube-logo.svg">
+      </div>
+      <div class="middle-section">
+        <form class="search-input" action="https://www.youtube.com/results" method="get">
+          <input class="search-bar" type="text" name="search_query" placeholder="Search" required>
+          <button class="search-button" type="submit">
+            <img class="search-icon" src="Icons/search.svg">
+            <div class="tooltip">Search</div>
+          </button>
+        </form>
+        <button class="voice-search-button">
+          <img class= "voice-search-icon" src="Icons/voice-search-icon.svg">
+          <div class="tooltip">Search with your voice</div>
+        </button>
+      </div>
+      <div class="right-section">
+        <div class="upload-icon-container">
+          <div>
+            <img class="upload-icon" src="Icons/createPlus.svg">
+            <p class="create"> Create</p>
+          </div>
+        </div>
+        <div class="youtube-apps-icon-container">
+          <img class="youtube-apps-icon" src="Icons/youtube-apps.svg">
+          <div class="tooltip">Youtube Apps</div>
+        </div>
+        <div class="notifications">
+          <img class="notifications-icon" src="Icons/notifications.svg">
+          <div class="notification-count">9</div>
+          <div class="tooltip">Notifications</div>
+        </div>
+        <img class="current-user-icon" src="Icons/channels4_profile.jpg">
+      </div>
+    </header> 
+
+    <nav class="sidebar">
+
+      <div class="sidebar-link">
+        <img class="home-icon" src="Icons/home.svg">
+        <div class="home">Home</div>
+      </div>
+
+      <div class="sidebar-link">
+        <img class="shorts-icon" src="Icons/shorts.svg">
+        <div class="shorts">Shorts</div>
+      </div>
+
+      <div class="sidebar-link">
+        <img class="subscriptions-icon" src="Icons/subscriptions.svg">
+        <div class="subscriptions">Subscriptions</div>
+      </div>
+
+      <div class="sidebar-link">
+        <img class="library-icon" src="Icons/You.svg">
+        <div class="library">Library</div>
+      </div>
+    </nav>
+
+    <main class="videos">
+      <section class="videos-grid">
+        <div class="video-box">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=xqhN68d-UzA">
+              <img class="thumbnail" src="thumbnails/yt thumbnail 1.avif">
+            </a>
+            <div class="video-time">16:38</div>
+          </div>
+          <div class="video-info-grid">
+            <a href="https://www.youtube.com/@WillTennyson".>
+              <div class="profile-pic-box">
+                <img class="profile-pic" src="Profile Pics/pf pic 1.jpg">
+              </div>
+            </a>
+            <div class="video-info-box">
+              <a href="https://www.youtube.com/watch?v=xqhN68d-UzA">
+                <p class="video-title">
+                  I Entered A Powerlifting Meet Without Practice
+                </p>
+              </a>
+              <a href="https://www.youtube.com/@WillTennyson".>
+                <p class="video-author">
+                  Will Tennyson
+                </p>
+              </a>
+              <p class="video-stats">
+                3.1M views &#183; 1 year ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-box">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=bvaITdFYuDQ">
+              <img class="thumbnail" src="thumbnails/BradleyAndFanum.avif">
+            </a>
+            <div class="video-time">1:39:51</div>
+          </div>
+          <div class="video-info-grid">
+            <a href="https://www.youtube.com/@FanumLive".>
+              <div class="profile-pic-box">
+                <img class="profile-pic" src="Profile Pics/fanum.jpg">
+              </div>
+            </a>
+            <div class="video-info-box">
+              <a href="https://www.youtube.com/watch?v=bvaITdFYuDQ">
+                <p class="video-title">
+                  Fanum WORKS OUT With Bradley Martyn..😂
+                </p>
+              </a>
+              <a href="https://www.youtube.com/@FanumLive".>
+                <p class="video-author">
+                  Fanum Live
+                </p>
+              </a>
+              <p class="video-stats">
+                634k views &#183; 1 month ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-box">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=YbU7v173ENs">
+              <img class="thumbnail" src="thumbnails/hotones.avif">
+            </a>
+            <div class="video-time">17:14</div>
+          </div>
+          <div class="video-info-grid">
+            <a href="https://www.youtube.com/@FirstWeFeast">
+              <div class="profile-pic-box">
+                <img class="profile-pic" src="Profile Pics/hotones.jpg">
+              </div>
+            </a>
+            <div class="video-info-box">
+              <a href="https://www.youtube.com/watch?v=YbU7v173ENs">
+                <p class="video-title">
+                  Uncle Roger vs. Nick DiGiovanni | Hot Ones Versus
+                </p>
+              </a>
+              <a href="https://www.youtube.com/@FirstWeFeast".>
+                <p class="video-author">
+                  First We Feast
+                </p>
+              </a>
+              <p class="video-stats">
+                4.4M views &#183; 6 months ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-box">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=e3fz3dqhN44">
+              <img class="thumbnail" src="thumbnails/QuantumComputers.avif">
+            </a>
+            <div class="video-time">17:01</div>
+          </div>
+          <div class="video-info-grid">
+            <a href="https://www.youtube.com/@CleoAbram">
+              <div class="profile-pic-box">
+                <img class="profile-pic" src="Profile Pics/CleoAbram.jpg">
+              </div>
+            </a>
+            <div class="video-info-box">
+              <a href="https://www.youtube.com/watch?v=e3fz3dqhN44">
+                <p class="video-title">
+                  Quantum Computers, explained with MKBHD
+                </p>
+              </a>
+              <a href="https://www.youtube.com/@CleoAbram".>
+                <p class="video-author">
+                  Cleo Abram
+                </p>
+              </a>
+              <p class="video-stats">
+                8.9M views &#183; 1 year ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-box">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=gs8qfL9PNac">
+              <img class="thumbnail" src="thumbnails/5mil.avif">
+            </a>
+            <div class="video-time">24:45</div>
+          </div>
+          <div class="video-info-grid">
+            <a href="https://www.youtube.com/@MrBeast">
+              <div class="profile-pic-box">
+                <img class="profile-pic" src="Profile Pics/beast.jpg">
+              </div>
+            </a>
+            <div class="video-info-box">
+              <a href="https://www.youtube.com/watch?v=gs8qfL9PNac">
+                <p class="video-title">
+                  2,000 People Fight For $5,000,000
+                </p>
+              </a>
+              <a href="https://www.youtube.com/@MrBeast".>
+                <p class="video-author">
+                  MrBeast
+                </p>
+              </a>
+              <p class="video-stats">
+                124M views &#183; 11 days ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-box">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=25bb8H0MOEM">
+              <img class="thumbnail" src="thumbnails/ExpensiveGym.avif">
+            </a>
+            <div class="video-time">25:13</div>
+          </div>
+          <div class="video-info-grid">
+            <a href="https://www.youtube.com/WillTennyson">
+              <div class="profile-pic-box">
+                <img class="profile-pic" src="Profile Pics/pf pic 1.jpg">
+              </div>
+            </a>
+            <div class="video-info-box">
+              <a href="https://www.youtube.com/watch?v=25bb8H0MOEM">
+                <p class="video-title">
+                  The World’s Most Expensive Gym Membership ($10k/month)
+                </p>
+              </a>
+              <a href="https://www.youtube.com/@WillTennyson".>
+                <p class="video-author">
+                  Will Tennyson
+                </p>
+              </a>
+              <p class="video-stats">
+                5.5M views &#183; 1 month ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-box">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=Py_tOOG99Hw">
+              <img class="thumbnail" src="thumbnails/CrossingAmerica.avif">
+            </a>
+            <div class="video-time">4:42:32</div>
+          </div>
+          <div class="video-info-grid">
+            <a href="https://www.youtube.com/@ryan">
+              <div class="profile-pic-box">
+                <img class="profile-pic" src="Profile Pics/Ryan.jpg">
+              </div>
+            </a>
+            <div class="video-info-box">
+              <a href="https://www.youtube.com/watch?v=Py_tOOG99Hw">
+                <p class="video-title">
+                  I crossed America with $0.01
+                </p>
+              </a>
+              <a href="https://www.youtube.com/@ryan".>
+                <p class="video-author">
+                  Ryan Trahan
+                </p>
+              </a>
+              <p class="video-stats">
+                13M views &#183; 6 months ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-box">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=bn0Kh9c4Zv4">
+              <img class="thumbnail" src="thumbnails/UndergroundCity.avif">
+            </a>
+            <div class="video-time">20:35</div>
+          </div>
+          <div class="video-info-grid">
+            <a href="https://www.youtube.com/@MrBeast">
+              <div class="profile-pic-box">
+                <img class="profile-pic" src="Profile Pics/beast.jpg">
+              </div>
+            </a>
+            <div class="video-info-box">
+              <a href="https://www.youtube.com/watch?v=bn0Kh9c4Zv4">
+                <p class="video-title">
+                  7 Days Exploring An Underground City
+                </p>
+              </a>
+              <a href="https://www.youtube.com/@MrBeast".>
+                <p class="video-author">
+                  MrBeast
+                </p>
+              </a>
+              <p class="video-stats">
+                116M views &#183; 2 months ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-box">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=8mvLLHJtQmo">
+              <img class="thumbnail" src="thumbnails/BestTaco.avif">
+            </a>
+            <div class="video-time">19:52</div>
+          </div>
+          <div class="video-info-grid">
+            <a href="https://www.youtube.com/NickDiGiovanni">
+              <div class="profile-pic-box">
+                <img class="profile-pic" src="Profile Pics/Nick.jpg">
+              </div>
+            </a>
+            <div class="video-info-box">
+              <a href="https://www.youtube.com/watch?v=8mvLLHJtQmo">
+                <p class="video-title">
+                  Finding The Best Taco In Los Angeles
+                </p>
+              </a>
+              <a href="https://www.youtube.com/NickDiGiovanni".>
+                <p class="video-author">
+                  Nick DiGiovanni
+                </p>
+              </a>
+              <p class="video-stats">
+                7.4M views &#183; 2 years ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-box">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=tpg3VvoIVfA">
+              <img class="thumbnail" src="thumbnails/crow.avif">
+            </a>
+            <div class="video-time">22:54</div>
+          </div>
+          <div class="video-info-grid">
+            <a href="https://www.youtube.com/@MarkRober">
+              <div class="profile-pic-box">
+                <img class="profile-pic" src="Profile Pics/MarkRober.jpg">
+              </div>
+            </a>
+            <div class="video-info-box">
+              <a href="https://www.youtube.com/watch?v=tpg3VvoIVfA">
+                <p class="video-title">
+                  Testing The World's Smartest Crow 
+                </p>
+              </a>
+              <a href="https://www.youtube.com/@MarkRober".>
+                <p class="video-author">
+                  Mark Rober
+                </p>
+              </a>
+              <p class="video-stats">
+                15M views &#183; 3 weeks ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-box">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=G0eKzU_fV00">
+              <img class="thumbnail" src="thumbnails/ARGlasses.avif">
+            </a>
+            <div class="video-time">20:28</div>
+          </div>
+          <div class="video-info-grid">
+            <a href="https://www.youtube.com/@mkbhd">
+              <div class="profile-pic-box">
+                <img class="profile-pic" src="Profile Pics/MKBHD.jpg">
+              </div>
+            </a>
+            <div class="video-info-box">
+              <a href="https://www.youtube.com/watch?v=G0eKzU_fV00">
+                <p class="video-title">
+                  I Tried Real Augmented Reality Glasses!
+                </p>
+              </a>
+              <a href="https://www.youtube.com/@mkbhd".>
+                <p class="video-author">
+                  Marques Brownlee
+                </p>
+              </a>
+              <p class="video-stats">
+                5.4M views &#183; 1 month ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-box">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=MtCGsxPQF-U">
+              <img class="thumbnail" src="thumbnails/FindMe.avif">
+            </a>
+            <div class="video-time">11:09</div>
+          </div>
+          <div class="video-info-grid">
+            <a href="https://www.youtube.com/@Ludwig">
+              <div class="profile-pic-box">
+                <img class="profile-pic" src="Profile Pics/Ludwig.jpg">
+              </div>
+            </a>
+            <div class="video-info-box">
+              <a href="https://www.youtube.com/watch?v=MtCGsxPQF-U">
+                <p class="video-title">
+                  Find Me, Win $100,000
+                </p>
+              </a>
+              <a href="https://www.youtube.com/@Ludwig".>
+                <p class="video-author">
+                  Ludwig
+                </p>
+              </a>
+              <p class="video-stats">
+                861K views &#183; 2 weeks ago
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    
+    
+  </body>
+</html>
